@@ -9,6 +9,6 @@ export class HelloWorldModel extends Observable {
     super();
 
     this.brightcovePlayer = new BrightcovePlayer();
-    this.message = this.brightcovePlayer.message;
+    this.message = this.brightcovePlayer.get();
   }
 }
