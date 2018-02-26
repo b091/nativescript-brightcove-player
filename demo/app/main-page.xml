@@ -1,6 +1,8 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page"
   xmlns:ui="nativescript-brightcove-player">
   <StackLayout class="p-20">
-    <Label text="{{ message }}" class="t-20 text-center c-black" textWrap="true"/>
+    <ui:BrightcovePlayer text="MyButton1" tap="onTap" />
+    <ui:BrightcovePlayer text="MyButton2" tap="onTap" />
+    <ui:BrightcovePlayer text="MyButton3" tap="onTap" />
   </StackLayout>
 </Page>
